@@ -22,6 +22,8 @@ The IMAGE_ID is the id of the image that you have pulled previously from `seanlo
 
 Upon successfully running the docker image, you should see this image (below)
 
+![Image of success deployment of Docker container](https://github.com/seanlowcy77/Simple_Docker_File/blob/master/Images/Docker_Success_pic.png)
+
 ## 2. More about Docker Hub
 
 The repository on Docker Hub can be viewed below
@@ -34,5 +36,10 @@ https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
 
 ### a. How Docker Hub looks like
 
+![Image of Docker Hub](https://github.com/seanlowcy77/Simple_Docker_File/blob/master/Images/Docker_Hub_pic.png)
 
 
+### 3. Versions
+
+This Dockerfile was created and run on:
+1. Docker - version 19.03.13
