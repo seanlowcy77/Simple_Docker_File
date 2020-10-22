@@ -1,4 +1,4 @@
-# CS3219 Task A
+# Simple Docker Task: Running Nginx with Docker
 
 ## 1. How to get started
 
@@ -20,7 +20,7 @@ docker run -p 80:9090 <IMAGE_ID>
 
 The IMAGE_ID is the id of the image that you have pulled previously from `seanlowcy/task_a_cs3219`. ```-p``` here refers to port. We are simply exposing port 80 (standard HTTP port) of the web server run by Nginx to the port 9090 on our host machine.
 
-Upon successfully running the docker image, you should see this image (below)
+Upon successfully running the docker image, go to `http://localhost:9090` and you should see this image (below)
 
 ![Image of success deployment of Docker container](https://github.com/seanlowcy77/Simple_Docker_File/blob/master/Images/Docker_Success_pic.png)
 
